@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:text="@string/zero"
+        android:id="@+id/textView1"
+        android:layout_gravity="center"
+        style="@style/TextViewStyle"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="100dp"
+     />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:text="@string/zero"
+        android:layout_gravity="center"
+        style="@style/NumberEditText"
+        android:layout_marginBottom="100dp"
+        />
+
+    <Button
+        android:id="@+id/button1"
+        android:text="@string/ok_button"
+        android:layout_gravity="center"
+        style="@style/ButtonProperties"
+        android:layout_marginBottom="100dp"
+    />
+
+</LinearLayout>
