@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">POP</string>
+    <string name="ok_button">POP</string>
+    <string name="menu_button_red_title">POP</string>
+    <string name="menu_button_green_title">POP</string>
+    <string name="menu_button_blue_title">POP</string>
+    <string name="menu_button_black_title">POP</string>
+</resources>
